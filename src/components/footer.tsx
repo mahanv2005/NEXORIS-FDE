@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowUpRight, MessageCircle, Briefcase, Code2 } from "lucide-react";
 
 export function Footer() {
@@ -11,8 +12,8 @@ export function Footer() {
           
           <div className="lg:col-span-2 flex flex-col items-start">
             <Link href="/" className="flex items-center gap-2 mb-6 group">
-              <div className="relative flex items-center justify-center w-8 h-8 rounded-lg bg-gradient-to-br from-[#00D9FF] to-[#0066FF] shadow-[0_0_15px_rgba(0,217,255,0.4)]">
-                <span className="text-white font-bold font-heading text-lg">N</span>
+              <div className="relative flex items-center justify-center w-10 h-10 rounded-lg overflow-hidden shadow-[0_0_15px_rgba(0,217,255,0.2)]">
+                <Image src="/NF.png" alt="NEXORIS Logo" fill className="object-cover" />
               </div>
               <span className="text-xl font-heading font-bold tracking-widest text-white ml-2">
                 NEXORIS

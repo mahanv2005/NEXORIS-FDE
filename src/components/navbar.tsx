@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -41,8 +42,8 @@ export function Navbar() {
       <div className="container mx-auto px-6 max-w-7xl flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
-          <div className="relative flex items-center justify-center w-8 h-8 rounded-lg bg-gradient-to-br from-[#00D9FF] to-[#0066FF] shadow-[0_0_15px_rgba(0,217,255,0.4)] group-hover:shadow-[0_0_25px_rgba(0,217,255,0.6)] transition-shadow">
-            <span className="text-white font-bold font-heading text-lg">N</span>
+          <div className="relative flex items-center justify-center w-10 h-10 rounded-lg overflow-hidden shadow-[0_0_15px_rgba(0,217,255,0.2)] group-hover:shadow-[0_0_25px_rgba(0,217,255,0.4)] transition-shadow">
+            <Image src="/NF.png" alt="NEXORIS Logo" fill className="object-cover" />
           </div>
           <span className="text-xl font-heading font-bold tracking-widest text-white ml-2">
             NEXORIS
