@@ -34,8 +34,8 @@ export function Navbar() {
       transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b",
-        scrolled 
-          ? "bg-[#030712]/80 backdrop-blur-md border-white/10 py-4 shadow-lg shadow-black/20" 
+        scrolled
+          ? "bg-[#030712]/80 backdrop-blur-md border-white/10 py-4 shadow-lg shadow-black/20"
           : "bg-transparent border-transparent py-6"
       )}
     >
@@ -43,10 +43,10 @@ export function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 group">
           <div className="relative flex items-center justify-center w-10 h-10 rounded-lg overflow-hidden shadow-[0_0_15px_rgba(0,217,255,0.2)] group-hover:shadow-[0_0_25px_rgba(0,217,255,0.4)] transition-shadow">
-            <Image src="/NF.png" alt="NEXORIS Logo" fill className="object-cover" />
+            <Image src="/NF.png" alt="Nexus Logo" fill sizes="40px" className="object-cover" />
           </div>
           <span className="text-xl font-heading font-bold tracking-widest text-white ml-2">
-            NEXORIS
+            Nexus
           </span>
         </Link>
 

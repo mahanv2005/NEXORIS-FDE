@@ -18,7 +18,7 @@ export default function About() {
       {/* Header */}
       <section className="container mx-auto px-6 max-w-4xl text-center mb-24">
         <h1 className="text-5xl md:text-7xl font-heading font-bold mb-6">Built for the Enterprise</h1>
-        <p className="text-xl text-text-muted">NEXORIS was founded to bridge the gap between AI hype and enterprise reality. We exist to build the systems that generic consulting firms cannot.</p>
+        <p className="text-xl text-text-muted">Nexus was founded to bridge the gap between AI hype and enterprise reality. We exist to build the systems that generic consulting firms cannot.</p>
       </section>
 
       {/* Mission & Vision */}
@@ -47,7 +47,7 @@ export default function About() {
             The AI landscape is moving too fast for single-vendor monopolies. If your systems integrator is exclusively pushing Microsoft Azure or Google Cloud, they are optimizing for their reseller margins—not your product.
           </p>
           <p className="text-lg text-gray-300 leading-relaxed mb-6 text-left">
-            We believe that enterprise data shouldn't be locked into a specific foundational model. The best architecture today might be Claude 3.5; tomorrow, it might be an open-source Llama 3 fine-tune running locally on your own GPUs. 
+            We believe that enterprise data shouldn't be locked into a specific foundational model. The best architecture today might be Claude 3.5; tomorrow, it might be an open-source Llama 3 fine-tune running locally on your own GPUs.
           </p>
           <p className="text-xl font-heading font-semibold text-accent-glow text-left mt-8 border-l-4 border-primary pl-6">
             Our FDEs build abstraction layers that decouple your data and workflows from the underlying models, giving you permanent leverage over AI vendors.
@@ -70,7 +70,7 @@ export default function About() {
           ))}
         </div>
       </section>
-      
+
     </main>
   );
 }

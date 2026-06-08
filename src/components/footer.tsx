@@ -9,14 +9,14 @@ export function Footer() {
     <footer className="border-t border-white/10 bg-[#030712] pt-24 pb-12">
       <div className="container mx-auto px-6 max-w-7xl">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 lg:gap-8 mb-16">
-          
+
           <div className="lg:col-span-2 flex flex-col items-start">
             <Link href="/" className="flex items-center gap-2 mb-6 group">
               <div className="relative flex items-center justify-center w-10 h-10 rounded-lg overflow-hidden shadow-[0_0_15px_rgba(0,217,255,0.2)]">
-                <Image src="/NF.png" alt="NEXORIS Logo" fill className="object-cover" />
+                <Image src="/NF.png" alt="Nexus Logo" fill sizes="40px" className="object-cover" />
               </div>
               <span className="text-xl font-heading font-bold tracking-widest text-white ml-2">
-                NEXORIS
+                Nexus
               </span>
             </Link>
             <p className="text-gray-400 font-sans leading-relaxed max-w-sm mb-8">
@@ -79,7 +79,7 @@ export function Footer() {
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-gray-500">
-            &copy; {currentYear} Nexoris FDE Inc. All rights reserved.
+            &copy; {currentYear} Nexus FDE Inc. All rights reserved.
           </p>
           <div className="flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-green-500 shadow-[0_0_10px_#22c55e]"></span>

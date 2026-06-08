@@ -21,7 +21,7 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "NEXORIS FDE | Enterprise AI. Deployed. Vendor-Neutral.",
+  title: "Nexus FDE | Enterprise AI. Deployed. Vendor-Neutral.",
   description: "Elite AI engineers embedded directly into enterprise teams to design, build, deploy, and scale production-ready AI systems without vendor lock-in.",
 };
 

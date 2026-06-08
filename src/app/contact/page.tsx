@@ -48,7 +48,7 @@ export default function Contact() {
 
       <section className="container mx-auto px-6 max-w-6xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-          
+
           {/* Left Column: Copy & Value Props */}
           <div className="flex flex-col justify-center">
             <h1 className="text-5xl md:text-6xl font-heading font-bold mb-6 leading-tight">
@@ -81,7 +81,7 @@ export default function Contact() {
           <div className="relative">
             <AnimatedCard className="bg-[#0F172A]/80 backdrop-blur-xl border border-white/10 p-8 md:p-10 shadow-[0_0_50px_rgba(0,102,255,0.1)]">
               {isSuccess ? (
-                <motion.div 
+                <motion.div
                   initial={{ opacity: 0, scale: 0.9 }}
                   animate={{ opacity: 1, scale: 1 }}
                   className="flex flex-col items-center justify-center text-center py-16"
@@ -98,7 +98,7 @@ export default function Contact() {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-2">
                       <label className="text-sm font-semibold text-gray-300">Full Name</label>
-                      <input 
+                      <input
                         {...register("name")}
                         className="w-full bg-[#030712] border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary transition-colors"
                         placeholder="John Doe"
@@ -107,7 +107,7 @@ export default function Contact() {
                     </div>
                     <div className="space-y-2">
                       <label className="text-sm font-semibold text-gray-300">Enterprise Email</label>
-                      <input 
+                      <input
                         {...register("email")}
                         className="w-full bg-[#030712] border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary transition-colors"
                         placeholder="john@enterprise.com"
@@ -119,7 +119,7 @@ export default function Contact() {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-2">
                       <label className="text-sm font-semibold text-gray-300">Company Name</label>
-                      <input 
+                      <input
                         {...register("company")}
                         className="w-full bg-[#030712] border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary transition-colors"
                         placeholder="Acme Corp"
@@ -128,7 +128,7 @@ export default function Contact() {
                     </div>
                     <div className="space-y-2">
                       <label className="text-sm font-semibold text-gray-300">Your Role</label>
-                      <input 
+                      <input
                         {...register("role")}
                         className="w-full bg-[#030712] border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary transition-colors"
                         placeholder="e.g. CTO, Head of AI"
@@ -140,7 +140,7 @@ export default function Contact() {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="space-y-2">
                       <label className="text-sm font-semibold text-gray-300">Estimated Budget</label>
-                      <select 
+                      <select
                         {...register("budget")}
                         className="w-full bg-[#030712] border border-white/10 rounded-lg px-4 py-3 text-gray-300 focus:outline-none focus:border-primary transition-colors appearance-none"
                       >
@@ -154,7 +154,7 @@ export default function Contact() {
                     </div>
                     <div className="space-y-2">
                       <label className="text-sm font-semibold text-gray-300">Project Timeline</label>
-                      <select 
+                      <select
                         {...register("timeline")}
                         className="w-full bg-[#030712] border border-white/10 rounded-lg px-4 py-3 text-gray-300 focus:outline-none focus:border-primary transition-colors appearance-none"
                       >
@@ -170,17 +170,17 @@ export default function Contact() {
 
                   <div className="space-y-2">
                     <label className="text-sm font-semibold text-gray-300">Project Description & Core Challenges</label>
-                    <textarea 
+                    <textarea
                       {...register("description")}
                       rows={4}
                       className="w-full bg-[#030712] border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary transition-colors resize-none"
-                      placeholder="Please describe your current architecture, bottlenecks, and what you aim to achieve with NEXORIS FDEs."
+                      placeholder="Please describe your current architecture, bottlenecks, and what you aim to achieve with Nexus FDEs."
                     />
                     {errors.description && <span className="text-red-400 text-xs">{errors.description.message}</span>}
                   </div>
 
-                  <button 
-                    type="submit" 
+                  <button
+                    type="submit"
                     disabled={isSubmitting}
                     className="w-full flex justify-center items-center gap-2 px-8 py-4 bg-gradient-to-r from-primary to-secondary text-white font-bold rounded-lg hover:shadow-[0_0_25px_rgba(0,217,255,0.4)] transition-all disabled:opacity-50"
                   >

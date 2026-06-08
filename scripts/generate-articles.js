@@ -21,13 +21,13 @@ titles.forEach((t, i) => {
   const slug = t.toLowerCase().replace(/[^a-z0-9]+/g, '-');
   const content = `---
 title: "${t}"
-date: "2024-0${Math.floor(i/2)+1}-1${(i%9)+1}"
+date: "2024-0${Math.floor(i / 2) + 1}-1${(i % 9) + 1}"
 category: "Enterprise AI"
 ---
 
 # ${t}
 
-This is a premium enterprise article about **${t}**. NEXORIS FDE engineers focus on delivering secure, scalable, vendor-neutral infrastructure.
+This is a premium enterprise article about **${t}**. Nexus FDE engineers focus on delivering secure, scalable, vendor-neutral infrastructure.
 
 ## The Challenge
 Enterprise AI adoption is often stalled by lack of talent and fear of vendor lock-in.

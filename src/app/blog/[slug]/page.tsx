@@ -30,12 +30,12 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         <Link href="/blog" className="inline-flex items-center gap-2 text-sm text-gray-400 hover:text-primary transition-colors mb-12">
           <ArrowLeft size={16} /> Back to Journal
         </Link>
-        
+
         <header className="mb-16">
           <h1 className="text-4xl md:text-6xl font-heading font-bold mb-6 text-white leading-tight">
             {meta.title}
           </h1>
-          
+
           <div className="flex flex-wrap items-center gap-6 text-sm text-gray-400 border-b border-white/10 pb-8">
             <div className="flex items-center gap-2">
               <Calendar size={16} />
@@ -46,7 +46,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
               <span className="text-primary font-medium">{meta.category}</span>
             </div>
             <div className="flex items-center gap-2 ml-auto">
-              <span>By NEXORIS FDE Team</span>
+              <span>By Nexus FDE Team</span>
             </div>
           </div>
         </header>
